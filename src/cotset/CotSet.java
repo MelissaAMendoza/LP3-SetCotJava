@@ -22,9 +22,6 @@ public class CotSet
         
         System.out.println("Ingrese el mes:");
         mes = leer.next();
-       
-        //System.out.println("mes"+mes);
-        //System.out.println("ano"+ano);
         
         verificacion(mes,ano); 
         
@@ -486,7 +483,6 @@ public class CotSet
                 System.out.println("Maxima:");
                 System.out.println("Minima:");   
             }
-            System.out.println("El mes ingresado no es válido!\n");
         }
     
      /*------------------------------------------AÑ0 2011------------------------------------------*/
@@ -938,7 +934,6 @@ public class CotSet
                 System.out.println("Maxima:");
                 System.out.println("Minima:");  
             }
-            System.out.println("El mes ingresado no es válido!\n");
         }
         
      /*------------------------------------------AÑ0 2012------------------------------------------*/
@@ -1390,7 +1385,6 @@ public class CotSet
                 System.out.println("Maxima:");
                 System.out.println("Minima:");   
             }
-            System.out.println("El mes ingresado no es válido!\n");
         }
     
      /*------------------------------------------AÑ0 2013------------------------------------------*/
@@ -1842,7 +1836,6 @@ public class CotSet
                 System.out.println("Maxima:");
                 System.out.println("Minima:");   
             }
-            System.out.println("El mes ingresado no es válido!\n");
         }
         
      /*------------------------------------------AÑ0 2014------------------------------------------*/
@@ -2295,10 +2288,7 @@ public class CotSet
                 System.out.println("Minima:");
                 
             }
-            System.out.println("El mes ingresado no es válido!\n");
         }
-        
-        System.out.println("El año ingresado no es válido!\n");
     }
 }
     
